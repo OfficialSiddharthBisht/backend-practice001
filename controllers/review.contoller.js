@@ -15,7 +15,7 @@ exports.giveReview = catchAsyncErrors(async (req, res) => {
     await Promise.all([review.save(), product.save()]);
     res.json(review);
   } catch (error) {
-    res.status(500).json({ error: "Failed to create a review." });
+    res.status(500).json({ error: "Failed to create a review.",error });
   }
 });
 

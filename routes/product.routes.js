@@ -10,10 +10,10 @@ const {
 
 const router = express.Router();
 
-router.route("/products").post(isAuthenticatedUser, createProduct);
-router.route("/products").get(isAuthenticatedUser, getAllProducts);
-router.route("/products/:id").get(isAuthenticatedUser, getSingleProduct);
-router.route("/products/:id").put(isAuthenticatedUser, updateProduct);
-// router.route("/products/:id").delete(isAuthenticatedUser, deleteProduct);
+router.route("/products").post( createProduct);
+router.route("/products").get( getAllProducts);
+router.route("/products/:id").get( getSingleProduct);
+router.route("/products/:id").put( updateProduct);
+router.route("/products/:id").delete(deleteProduct);
 
 module.exports = router;

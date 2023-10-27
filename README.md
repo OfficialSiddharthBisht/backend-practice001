@@ -27,11 +27,11 @@ API Endpoints:
 Create RESTful API endpoints for the following operations:
 Add a Product (POST /api/products)
 Read All Products (GET /api/products)
-Read Product by ID (GET /api/products/:id)
+Read Product by ID (GET /api/products/:id) :_______
 Update a Product (PUT /api/products/:id)
-Delete a Product (DELETE /api/products/:id)
+Delete a Product (DELETE /api/products/:id) :________
 Create a Review for a Product (POST /api/products/:productId/reviews)
-Delete a Review (DELETE /api/products/:productId/reviews/:reviewId)
+Delete a Review (DELETE /api/products/:productId/reviews/:reviewId) :__________
 Virtual Population of Reviews for a Product (GET /api/products/:productId/reviews)
 Technical Requirements:
 
